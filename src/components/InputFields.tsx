@@ -21,11 +21,11 @@ const InputFields: React.FC<Props> = ({ todo, setTodo, handleAdd }) => {
         type="input"
         value={todo}
         onChange={(e) => setTodo(e.target.value)}
-        placeholder="Add a task"
+        placeholder="Types Of Cheese (mozzarella is da best) (blue cheeeese is da grosest)"
         className="input_box"
       />
       <button className="input_submit" type="submit">
-        GO
+        NOM
       </button>
     </form>
   );
